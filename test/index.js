@@ -11,7 +11,7 @@ const count = (num) => {
 const countReducer = enableInitializing((prevState=2, action) => {
   switch(action.type) {
     case 'COUNT':
-      return prevState + action.num;
+      return action.num;
     default:
       return prevState;
   }
