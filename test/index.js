@@ -18,7 +18,12 @@ const countReducer = enableInitializing((prevState=2, action) => {
 });
 
 const store = createStore(countReducer);
-store.dispatch(count(100));
+
+test('Wrapped reducer works correctly', (done) => {
+  store.dispatch(count(100));
+  assert(store.getState() === 100);
+  done();
+});
 
 test('"initializeReducers" initializes wrapped reducers by first state', (done) => {
   store.dispatch(initializeReducers());
