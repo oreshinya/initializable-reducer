@@ -4,7 +4,7 @@
   "description": "Redux higher order reducer for initializing state by a action.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eater"
   },
   "keywords": [
     "redux",
@@ -20,6 +20,7 @@
     "babel-preset-power-assert": "^1.0.0",
     "babel-register": "^6.9.0",
     "eater": "^1.5.5",
-    "power-assert": "^1.4.1"
+    "power-assert": "^1.4.1",
+    "redux": "^3.5.2"
   }
 }

@@ -4,7 +4,7 @@ export const initializeReducers = () => {
   return { type: INIT };
 };
 
-export const enableInitialize = (reducer) => {
+export const enableInitializing = (reducer) => {
   return (prevState, action) => {
     const prev = action.type === INIT ? undefined : prevState;
     return reducer(prev, action);
