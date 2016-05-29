@@ -1,4 +1,6 @@
 # Initializable reducer
+[![npm version](https://badge.fury.io/js/initializable-reducer.svg)](https://badge.fury.io/js/initializable-reducer)
+[![Build Status](https://travis-ci.org/oreshinya/initializable-reducer.svg?branch=master)](https://travis-ci.org/oreshinya/initializable-reducer)
 
 Initializing reducers action and associated higher order reducer for redux.
 
