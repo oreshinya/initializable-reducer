@@ -40,3 +40,7 @@ store.dispatch(initializeReducers());
 
 store.getState(); // => 2
 ```
+
+## LICENSE
+
+MIT

@@ -1,6 +1,6 @@
 {
   "name": "initializable-reducer",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Redux higher order reducer for initializing state by a action.",
   "main": "lib/index.js",
   "files": [
