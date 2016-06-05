@@ -1,6 +1,6 @@
 {
   "name": "initializable-reducer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Redux higher order reducer for initializing state by a action.",
   "main": "lib/index.js",
   "files": [
@@ -9,6 +9,10 @@
   "scripts": {
     "prepublish": "rm -rf lib && babel src -d lib",
     "test": "eater"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oreshinya/initializable-reducer.git"
   },
   "keywords": [
     "redux",
