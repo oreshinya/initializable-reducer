@@ -1,8 +1,11 @@
 {
   "name": "initializable-reducer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redux higher order reducer for initializing state by a action.",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "prepublish": "rm -rf lib && babel src -d lib",
     "test": "eater"
