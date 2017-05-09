@@ -1,4 +1,4 @@
-const INIT = 'INITIALIZABLE_RECUDER.INIT';
+const INIT = 'INITIALIZABLE_REDUCER.INIT';
 
 export const initializeReducers = () => {
   return { type: INIT };
